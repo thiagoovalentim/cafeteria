@@ -1,0 +1,352 @@
+*, body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+main{
+    scroll-behavior: smooth;
+}
+
+.cabecalho{
+    background-color: #604829;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 170px;
+    gap: 30px;
+
+}
+
+
+
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/oswald/v53/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUZiZQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+.cabecalho .logo{
+    color: #C4A47C;
+    display: flex;
+    gap: 30px;
+    font-family: 'Oswald';      
+}
+
+
+.cabecalho img{
+    height: 90px;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.cabecalho .logo-imagem{
+    padding-right: 500px;
+}
+
+.cabecalho .logo .menu{
+    text-shadow:  0px 4px 5px rgba(0, 0, 0, 1.9);
+    font-size: 15px;    
+}
+
+
+
+/* fonte banner */
+.banner{
+    height: 900px;
+    background-image: url(img/banner.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center bottom;
+    color: white;
+    padding-top: 130px;
+}
+
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 100;
+
+    src: url(https://fonts.gstatic.com/s/fraunces/v31/6NUu8FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0K7iN7iQcIfJD58ngz1Yc7qv8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100&display=swap');
+
+.banner h1{
+    font-family: 'Fraunces';
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+    font-size: 500%;
+    text-shadow:  0px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+.post{
+    margin: 50px 100px 50px 100px;
+    text-align: center;
+
+}
+
+.post h1{
+    font-family: 'Oswald';   
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #C4A47C;
+    text-shadow: 0px 1px 1px #604829;
+}
+
+.post p{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+.banner-borrado{
+    background-color: grey;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    background-image: url(img/imagem-borrada.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.banner-borrado p{
+    color: white;
+    background-color: #604829;
+    padding: 10px;
+    box-shadow:  0px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.post2, .post3{
+    margin: 50px 100px 50px 100px;
+    text-align: center;
+}
+
+.post2 h1, .post3 h1{
+    font-family: 'Oswald';   
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #C4A47C;
+    text-shadow: 0px 1px 1px #604829;
+}
+
+.post2 p, .post3 p{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    line-height: 2;
+}
+
+
+.banner-borrado2{
+    background-color: grey;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    background-image: url(img/imagem-borrada2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.banner-borrado2 p{
+    color: white;
+    background-color: #604829;
+    padding: 10px;
+    box-shadow:  0px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.mapas{
+    background-image: url(img/imagem-mapa.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 650px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.mapas .mapa-cafe{
+    box-shadow:  0px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.mapas .subtitulo{
+    padding: 5px;
+    background-color: #604829;
+    color: white;
+    width: 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Oswald'; 
+    font-size: 17px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.mapas .contato{
+    width: 33%;
+    background-color: #604829;
+    color: white;
+    font-size: 16px;
+    font-family: 'Oswald'; 
+    text-align: center;
+    line-height: 1.9;
+    margin: 0 auto;
+    box-shadow:  0px 4px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 40px;
+
+}
+
+.mapas .contato p{
+    text-shadow:  0px 2.3px 3px rgba(0, 0, 0, 1.9);
+
+
+}
+
+.horario{
+    height: 680px;
+    background-image: url(img/imagem-horario.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    line-height: 40px;
+
+}
+
+.horario .titulo{
+    color: white;
+    font-size: 17px;
+    font-family: 'Oswald'; 
+    text-align: center;
+    letter-spacing: 5px;
+    padding-top: 140px;
+    padding-bottom: 70px;
+}
+
+
+.horario .dias .dia, 
+.horario .dias,
+.horario-fechado{
+    color: white;
+    font-size: 20px;
+    font-family: 'Oswald'; 
+}
+
+.dias .traco{
+    background-color: white;
+    height: 1px;
+    width: 40%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.horario .dias{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+
+
+}
+
+.horario .dias .dia{
+    text-align: left;
+    width: 7%;
+}
+
+.horario .dias .horario-fechado,
+.horario .dias .horario{
+    width: 10%;
+}
+
+.horario .dias .horario-fechado2{
+    width: 10%;
+    color: #FFC857;
+}
+
+footer {
+    background-color: black;
+    height: 90px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Oswald';
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.rodape{
+    text-align: center; /* Alinha o conteúdo dos parágrafos ao centro horizontalmente */
+}
+
+.rodape span{
+    color: #FFC857;
+}
+
+
+#btnTop{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: #C4A47C;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.arrow{
+    border: solid white;
+    border-width: 0 7px 7px 0;
+    padding: 5px;
+    display: inline-block;
+}
+
+.up{
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.cabecalho .logo a{
+    text-decoration: none;
+    color: #C4A47C;
+}
